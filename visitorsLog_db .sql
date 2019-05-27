@@ -1896,7 +1896,7 @@ CREATE TABLE `users_tb` (
 --
 
 INSERT INTO `users_tb` (`id`, `fname`, `mname`, `lname`, `sex`, `marital_status`, `dob`, `username`, `password`, `password_changed`, `security_question`, `security_answer`, `role`, `created_on`, `created_by`, `last_modified`, `last_modified_by`, `account_status`, `visible`, `picture_uri`, `comment`, `last_login`) VALUES
-(4, 'SCOAN', '', 'ADMIN', 'O', 1, NULL, 'scoan', '2f92b1b18f09ac7ddbef22fc437c83f7626deeaf8986725e52a4cc9fa6cade7f', 1, '', '', 1, '2018-02-06 11:34:00', 0, NULL, NULL, 1, 1, '/visitorsLog/images/profile.png', 'Invisible Admin', '2018-02-06 22:24:53');
+(4, 'Admin', '', 'Admin', 'O', 1, NULL, 'Admin', 'c1c224b03cd9bc7b6a86d77f5dace40191766c485cd55dc48caf9ac873335d6f', 1, '', '', 1, '2018-02-06 11:34:00', 0, NULL, NULL, 1, 1, '/visitorsLog/images/profile.png', 'Invisible Admin', '2018-02-06 22:24:53');
 
 -- --------------------------------------------------------
 

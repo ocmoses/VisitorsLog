@@ -66,8 +66,8 @@ public class FileUploadController {
 				byte[] bytes = file.getBytes();
 
 				
-				//String rootPath = System.getProperty("catalina.home");
-				File dir = new File(getRoot() + File.separator + ((folder == null) ? "default" : folder ) + File.separator + "images");
+				String rootPath = System.getProperty("catalina.home");
+				File dir = new File(rootPath + File.separator + ((folder == null) ? "default" : folder ) + File.separator + "images");
 				if (!dir.exists())
 					dir.mkdirs();
 				
